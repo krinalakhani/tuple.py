@@ -1,0 +1,31 @@
+#tuples basic operations:
+x=()
+y=list(x)
+y=[x for x in range(10)]
+x=tuple(y)
+print(x)
+
+a = ("apple", "mango", "kiwi")
+print(a)
+b = a + x
+print(b)
+
+#tuple indexing and slicing
+print(x[5])
+print(b[5])
+
+print(b[10:])
+
+#tuple unpacking
+i,j,k=a
+print(i)
+print(j)
+print(k)
+
+#tuple method
+print(x)
+count=0
+for c in x:
+    c=int(c)
+    count += c
+print(count)
